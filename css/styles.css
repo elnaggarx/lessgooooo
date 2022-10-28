@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Slab&family=Work+Sans&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family:"Roboto",sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.heading{
+    display:inline-flex;
+    justify-content: space-between;
+    margin: 15px 100px 0 0;
+}
+.heading h1{
+    font-size: 28px;
+    font-family: "Roboto",sans-serif;
+}
+.Docplanner{
+    color:rgb(8,188,164);
+}
+.Group{
+    color:rgb(196, 192, 187);
+}
+.heading img{
+    width: auto;
+    height: 30px;
+    margin-right:5px;
+}
+.navbar-dropdowns{
+    list-style: none;
+    display: none;
+    color:rgb(196, 192, 187);
+    width:100%;
+    font-size:14px;
+    line-height: 50px;
+    margin: 10px 40px 0 0;
+
+}
+
+.navbar-main-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top:25px;
+    justify-content: space-around;
+
+}
+.navbar-main-list li{
+    padding:0 10px;
+    font-size: 14px;
+    color:rgb(196, 192, 187);
+
+}
+
+.About a{
+    text-decoration: none;
+    color:rgb(7, 168, 147) ;
+}
+.career a{
+    text-decoration: none;
+    color:rgb(196, 192, 187);
+}
+.navbar-main-list li:hover{
+    color:rgb(7, 168, 147) ;
+}
+
+.career a:hover{
+    color:rgb(7, 168, 147) ;
+}
+.dd:hover .navbar-dropdowns{
+    display: block;
+    background-color: white;
+    box-shadow: 2px 2px 5px 0 rgb(0,0,0,0.28);
+
+}
+.container1{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1 img{
+    height:37px;
+    width:37px;
+}
+.container1 p{
+    margin-top: 45px;
+    font-size: 30px;
+    font-family:"Work Sans",sans-serif;
+    font-weight: lighter;
+    color:rgb(7, 168, 147) ;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container2 p{
+    color: rgb(130, 128, 125);
+    font-family:"Roboto";
+    font: size 25px;
+    line-height: 27px;
+    text-align: justify; 
+}
+.paragrapgh1{
+    margin-right:16px;
+}
+.paragrapgh2{
+    margin-left:16px;
+}
+.container3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+.For-Patients{
+    background-color: rgb(0,204,177);
+    margin-right:20px;
+    font-family:"Work Sans",sans-serif;
+    color:white;
+    font-weight: lighter;
+    font-size: 22pt;
+    justify-content: center;
+    padding:40px 25px 20px 25px;
+    border-radius: 20px;
+}
+.For-Patients form{
+    font-size: 16pt;
+}
+.For-Doctors{
+    background-color: rgb(61,131,223);
+    font-family:"Work Sans",sans-serif;
+    color:white;
+    font-weight: lighter;
+    font-size: 22pt;
+    justify-content: center;
+    padding:40px 25px 20px 25px;
+    border-radius: 20px;   
+}
+.For-Doctors form{
+    font-size:16pt;
+}
+.For-Clinics{
+   background-color:rgb(27,39,52);
+   font-family:"Work Sans",sans-serif;
+    color:white;
+    font-weight: lighter;
+    font-size: 22pt;
+    justify-content: center;
+    padding:40px 25px 20px 25px;
+    border-radius: 20px;
+    margin-left:20px;
+}
+.For-Clinics form{
+    font-size: 16pt;
+}
+.container4{
+    padding: 329px 586px;
+    background-image: linear-gradient(to bottom right,rgb(210,242,243),rgb(227,250,247));
+    margin-top:30px;
+}
+.one-two-three{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap:nowrap;
+}
+.one{
+    display:flex;
+    flex-direction: column;
+}
+.one-a{
+    font-size: 26pt;
+    font-family:"Work Sans",sans-serif;
+    color:rgb(7, 168, 147);
+    font-weight: lighter;
+    margin-right:700px;
+    width:100%
+}
+.one-b{
+    font-family:"Roboto",sans-serif;
+    font-size: 14px;
+    color: rgb(130, 128, 125);
+}
+.two{
+    background-color: white;
+
+}
+.two-a{
+    font-size:18pt;
+    font-family:"Work Sans",sans-serif;
+    color: rgb(7, 168, 147);
+}
+.two-b{
+    font-size:14px;
+    font-family:"Roboto",sans-serif;
+    color: rgb(130, 128, 125);
+    padding:100px 100px 100px 100px;
+
+}
+
+
+
+
