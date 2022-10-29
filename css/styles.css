@@ -130,6 +130,9 @@ nav{
     padding:40px 25px 20px 25px;
     border-radius: 20px;
 }
+.For-Patients:hover{
+    background-color: rgb(0, 189, 164);
+}
 .For-Patients form{
     font-size: 16pt;
 }
@@ -142,6 +145,9 @@ nav{
     justify-content: center;
     padding:40px 25px 20px 25px;
     border-radius: 20px;   
+}
+.For-Doctors:hover{
+   background-color: rgb(57, 118, 199);
 }
 .For-Doctors form{
     font-size:16pt;
@@ -157,23 +163,43 @@ nav{
     border-radius: 20px;
     margin-left:20px;
 }
+.For-Clinics:hover{
+    background-color:rgb(20, 29, 39);
+}
 .For-Clinics form{
     font-size: 16pt;
+}
+.global-company{
+    font-size: 21pt;
+    font-family:"Work Sans",sans-serif;
+    color:rgb(7, 168, 147);
+    font-weight: lighter;
+    margin:45px 0 45px 152px;
+    width:100%;
+    line-height: 33px;
 }
 .container4{
     padding: 329px 586px;
     background-image: linear-gradient(to bottom right,rgb(210,242,243),rgb(227,250,247));
     margin-top:30px;
+    position: relative;
 }
 .one-two-three{
     display:flex;
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap:nowrap;
+    position:relative;
+    bottom:270px;
 }
 .one{
     display:flex;
     flex-direction: column;
+    width:230%;
+    position: absolute;
+    top:70px;
+    right:150px;
+
 }
 .one-a{
     font-size: 26pt;
@@ -181,30 +207,139 @@ nav{
     color:rgb(7, 168, 147);
     font-weight: lighter;
     margin-right:700px;
-    width:100%
+    width:100%;
+    line-height: 47px;
+    height:80px;
 }
 .one-b{
     font-family:"Roboto",sans-serif;
     font-size: 14px;
     color: rgb(130, 128, 125);
+    line-height:25px;
 }
 .two{
     background-color: white;
-
+    padding:20px 20px 30px 20px;
+    position: absolute;
+    left:115px;
+    top:10px;
 }
 .two-a{
     font-size:18pt;
     font-family:"Work Sans",sans-serif;
     color: rgb(7, 168, 147);
+    width: 145px;
+    text-align: center;
+    margin-left:40px;
+    line-height: 35px;
 }
 .two-b{
     font-size:14px;
     font-family:"Roboto",sans-serif;
     color: rgb(130, 128, 125);
-    padding:100px 100px 100px 100px;
-
+    width: 220px;
+    text-align: center;
+    margin-top:20px;
 }
-
+.fa-flag{
+    margin:30px 0 35px 100px;
+    color:rgb(7, 168, 147);
+}
+.three{
+    background-color: white;
+    padding:55px 10px 55px 10px;
+    position: absolute;
+    left:400px;
+}
+.three-a{
+    font-size:18pt;
+    font-family:"Work Sans",sans-serif;
+    color: rgb(7, 168, 147);
+    width: 145px;
+    text-align: center;
+    margin-left:40px;
+    line-height: 35px;
+}
+.three-b{
+    font-size:14px;
+    font-family:"Roboto",sans-serif;
+    color: rgb(130, 128, 125);
+    width: 220px;
+    text-align: center;
+    margin-top:20px;
+}
+.fa-calendar-days{
+    color: rgb(7, 168, 147);
+    margin:20px 0 30px 100px;
+}
+.un-deux-trois{
+    display:flex;
+    position: relative;
+}
+.un{
+    position:absolute;
+    right:250px;
+    top:30px;
+}
+.un img{
+    height:300px;
+}
+.deux{
+    background-color: white;
+    padding:55px 10px 55px 10px;
+    position: absolute;
+    left:115px;
+    top:45px;
+}
+.deux-a{
+    font-size:18pt;
+    font-family:"Work Sans",sans-serif;
+    color: rgb(7, 168, 147);
+    width: 145px;
+    text-align: center;
+    margin-left:35px;
+    line-height: 35px; 
+}
+.deux-b{
+    font-size:14px;
+    font-family:"Roboto",sans-serif;
+    color: rgb(130, 128, 125);
+    width: 220px;
+    text-align: center;
+    margin-top:20px;
+}
+.fa-person{
+    color: rgb(7, 168, 147);
+    margin:0 0 25px 90px;
+}
+.trois{
+    background-color: white;
+    padding:55px 10px 55px 10px;
+    position: absolute;
+    left:400px;
+    top:20px;
+}
+.trois-a{
+    font-size:18pt;
+    font-family:"Work Sans",sans-serif;
+    color: rgb(7, 168, 147);
+    width: 145px;
+    text-align: center;
+    margin-left:35px;
+    line-height: 35px; 
+}
+.trois-b{
+    font-size:14px;
+    font-family:"Roboto",sans-serif;
+    color: rgb(130, 128, 125);
+    width: 220px;
+    text-align: center;
+    margin-top:20px;
+}
+.fa-people-group{
+    color: rgb(7, 168, 147);
+    margin:0 0 20px 90px;
+}
 
 
 
