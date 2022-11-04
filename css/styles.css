@@ -340,6 +340,24 @@ nav{
     color: rgb(7, 168, 147);
     margin:0 0 20px 90px;
 }
+.m1{
+    text-align: center;
+    margin-top:85px;
+    font-size:22pt;
+    font-family:"Work Sans",sans-serif;
+    color: rgb(7, 168, 147);
+    line-height: 40px;
+    font-weight: lighter;
+}
+.m2{
+    text-align: center;
+    margin-top:26px;
+    font-size:11pt;
+    font-family:"Roboto",sans-serif;
+    color: rgb(130, 128, 125);
+    line-height: 27px;
+    
+}
 
 
 
